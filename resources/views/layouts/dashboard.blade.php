@@ -77,8 +77,8 @@
                 <li>
                     <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-list-alt fa-stack-1x"></i></span> Lihat Data</a>
                     <ul class="nav-pills nav-stacked">
-                        <li><a href="#" class="text-left"><span class="glyphicon glyphicon-user col-xs-pull-1"></span>Kepala Keluarga</a></li>
-                        <li><a href="#" class="text-left"><span class="glyphicon glyphicon-user col-xs-pull-1"></span>Individu</a></li>
+                        <li><a href="{{ url('/dashboard/tim/kepala-keluarga/view') }}" class="text-left"><span class="glyphicon glyphicon-user col-xs-pull-1"></span>Kepala Keluarga</a></li>
+                        <li><a href="{{ url('/dashboard/tim/individu/view') }}" class="text-left"><span class="glyphicon glyphicon-user col-xs-pull-1"></span>Individu</a></li>
                     </ul>
                 </li>
             </ul>
